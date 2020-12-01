@@ -20,6 +20,12 @@ Guaranteed constraints:
 true if all digits of n are even, false otherwise.
 """
 
+
+def evenDigitsOnly(n):
+    return all(int(digit) % 2 == 0 for digit in str(n))
+
+
+# Older Solution
 def evenDigitsOnly(n):
     num = n
     while num >= 1:
