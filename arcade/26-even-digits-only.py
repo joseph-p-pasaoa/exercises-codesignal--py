@@ -35,3 +35,6 @@ def evenDigitsOnly(n):
         num = math.floor(num / 10)
     
     return True
+
+
+# Successfully submitted, passing 20 tests.
