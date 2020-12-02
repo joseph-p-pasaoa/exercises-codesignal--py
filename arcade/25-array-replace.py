@@ -33,3 +33,6 @@ def arrayReplace(array, elemToReplace, substitutionElem):
         substitutionElem if el == elemToReplace else el
         for el in array
         ]
+
+
+# Submitted successfully, passed 16 tests.
