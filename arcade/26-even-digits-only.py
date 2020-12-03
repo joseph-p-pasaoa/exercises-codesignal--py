@@ -26,6 +26,7 @@ def evenDigitsOnly(n):
 
 
 # Older Solution
+"""
 def evenDigitsOnly(n):
     num = n
     while num >= 1:
@@ -35,6 +36,7 @@ def evenDigitsOnly(n):
         num = math.floor(num / 10)
     
     return True
+"""
 
 
 # Successfully submitted, passing 20 tests.
